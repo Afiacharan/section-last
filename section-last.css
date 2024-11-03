@@ -1,0 +1,135 @@
+.section-last {
+  border: 1px solid red;
+  border-radius: none;
+}
+.section-last-btn {
+  font-size: 16px;
+  width: 120px; 
+  border: none;
+  background-color: #e03c33;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 7vh;
+  border-radius: 0 3px 3px 0;
+}
+
+.section-last-btn:hover {
+  background-color: #4f4f4f;
+}
+.Newsletter {
+  color: #898787;
+  font-size: 0.7em;
+}
+.section-last {
+  height: 7vh;
+  border-radius: 3px 0 0 3px;
+}
+/* Style for the highlighted "Subscribe" word */
+.subscribe-highlight {
+  position: relative;
+  color: inherit; /* Keeps the text color the same as surrounding text */
+}
+
+/* Add yellow background using ::after */
+.subscribe-highlight::after {
+  content: '';
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 0.6em; /* Adjust height as needed */
+  background-color:#fdc221;
+  z-index: -1;
+  padding: 0 5px; /* Optional: adjust padding for spacing */
+  border-radius: 4px; /* Optional: for rounded corners */
+}
+
+
+@media (max-width: 576px) {
+  .section-last {
+    height: 4vh; 
+    border-radius: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .section-last-btn {
+    height: 4vh;
+    border-radius: 0; 
+    border-radius: 0 3px 3px 0;
+  }
+}
+/* footer................. */
+.footer {
+  font-size: 0.9rem;
+}
+
+.footer-logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.address {
+  font-size: 12px;
+}
+.number {
+  font-size: 12px;
+}
+.email {
+  font-size: 12px;
+}
+.Latest-p {
+  font-size: 12px;
+}
+
+.tweet-content,
+.tweet-date {
+  font-size: 0.7rem;
+}
+
+.tweet a {
+  color: #f21d1d;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.tweet a:hover {
+  text-decoration: underline;
+}
+.support-column {
+  padding-left: 20px; 
+  padding-right: 20px;
+}
+.list-unstyled li a {
+  font-size: 10px;
+  color: #1f1a1a;
+  text-decoration: none;
+}
+.footer-p {
+  font-size: 14px;
+}
+.footer-one {
+  font-size: 12px;
+}
+.social-icons a {
+  font-size: 0.7rem; 
+  color: #ff0000;
+  text-decoration: none;
+  margin-left: 300px;
+}
+
+.social-icons a:hover {
+  color: #ff5e00;
+}
+.copy-right {
+  background-color: #f21d1d;
+}
+.text-left p {
+  font-size: 0.7em;
+}
